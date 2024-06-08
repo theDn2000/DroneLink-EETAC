@@ -30,7 +30,7 @@ In this file, you will find both installation instructions and a guide for using
 Clone the repository to your local machine using Git:
 
 ```
-git clone https://github.com/tu-usuario/tu-proyecto.git A MODIFICAR
+git clone https://github.com/theDn2000/DroneLink-EETAC.git
 cd DroneLink-EETAC
 ```
 
@@ -54,15 +54,15 @@ This project is intended to grow from contributions both from the school and ext
 
 1. **Fork** the original repository:
 
-   - Navigate to the [project's main page on GitHub](https://github.com/tu-usuario/tu-proyecto). A MODIFICAR
+   - Navigate to the [project's main page on GitHub](https://github.com/theDn2000/DroneLink-EETAC).
    - Click on the "Fork" button in the top right corner of the page.
    - This will create a copy of the repository in your GitHub account.
   
 2. **Clone** your fork to your local machine:
 
    ```
-   git clone https://github.com/tu-usuario-fork/tu-proyecto.git A MODIFICAR
-   cd tu-proyecto
+   git clone https://github.com/your-username/repository-fork-name.git
+   cd repository-fork-name
    ```
 
 3. **Download** the dependencies from the *requirements.txt* file:
@@ -73,13 +73,19 @@ This project is intended to grow from contributions both from the school and ext
 4. Set up the original repository as an additional remote called **upstream**:
 
    ```
-   git remote add upstream https://github.com/tu-usuario/tu-proyecto.git A MODIFICAR
+   git remote add upstream https://github.com/theDn2000/DroneLink-EETAC.git
    ```
 
 5. Create a new **branch** to work on your version:
 
    ```
-    git checkout -b nombre-de-tu-rama
+    git checkout -b your-branch-name
+   ```
+
+6. Before commiting, use the pre-commit tool for project verification:
+
+   ```
+    pre-commit run -a
    ```
 
 Now you can make pull requests from your fork, and an administrator can merge your contributions into the main repository.
@@ -87,7 +93,11 @@ Now you can make pull requests from your fork, and an administrator can merge yo
 >[!NOTE]
 >This video show an example of how you can contribute to the project\
 >\
->[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-contributions-pink.svg)](https://www.youtube.com/watch?v=dv-k5MKjq8g) 
+>[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-contributions-pink.svg)](https://www.youtube.com/watch?v=dv-k5MKjq8g)
+
+>[!NOTE]
+>Installing [GitHub Desktop](https://desktop.github.com) is highly recommended to facilitate the previous steps.\
+
 
 <a name="Use"></a>
 ## 🚀 Use
