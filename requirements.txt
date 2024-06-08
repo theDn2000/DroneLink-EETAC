@@ -1,0 +1,6 @@
+paho-mqtt
+pymavlink
+customtkinter
+tkintermapview
+websockets
+opencv-python
