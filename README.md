@@ -252,6 +252,8 @@ Dashboard Direct offer the following functionalities:
 
 Dashboard Direct Multiple is a test tool that allows you to control several drones simultaneously (10 maximum). Before connecting, you have to select the swarm size and the connection type (simulation or real). 
 
+Dashboard Direct Multiple creates multiple Drone objects and store them in a list. Then, uses the drone.id variables to execute orders to the selected drone.
+
 Dashboard Direct Multiple offer the following functionalities:
 - **Drone Selector**: A selection bar to determine the drone that you want to control when pressing every button.
 - **Basic drone controls**: Arm the drone, take off, change altitude, move, land and RTL.
