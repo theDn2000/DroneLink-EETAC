@@ -117,7 +117,7 @@ drone = Drone(id)
 ```
 
 >[!TIP]
->The parameter drone.id allows you to differentiate drone-type objects, which leads you to interact with multiple vehicles at the same time. See [Dashboard Direct Multiple](#Introduction) for more information.
+>The parameter drone.id allows you to differentiate drone-type objects, which leads you to interact with multiple vehicles at the same time. See [Dashboard Direct Multiple](#DDM) for more information.
 
 
 
@@ -245,6 +245,7 @@ Dashboard Direct offer the following functionalities:
 - **Geofence tab**: Create vertex points by right-clicking on the map to define a polygon, upload the polygon to the autopilot geofence, enable the geofence, disable the geofence, change the geofence action or clear the vertex points.
 - **Camera display**: Take pictures or stream video using the local camera.
 
+<a name="DDM"></a>
 ### Dashboard Direct Multiple
 ![image](https://github.com/theDn2000/AutopilotServiceDEE_DCM/assets/109517814/d1c607d3-5af2-4ff9-b4f1-36e5c6408193)
 ![image](https://github.com/theDn2000/AutopilotServiceDEE_DCM/assets/109517814/59034b5f-b7f8-4551-a110-de80d8b63ffe)
@@ -263,6 +264,19 @@ Dashboard Direct Multiple offer the following functionalities:
 
 
 This set of files enables remote communication with the drone from any device that can run the Dashboard Remote application and has an internet connection. For this, the scripts *AutopilotService.py* and *CameraService.py* are executed on the onboard computer of the vehicle (in this case, the Raspberry Pi), while Dashboard Remote is run from an external device. All three files subscribe to an external broker chosen by the user once they are started, allowing the sending and receiving of messages from a distance.
+
+>[!CAUTION]
+>The device in which the services are being executed must have a mosquitto broker running on port 1884.
+>1. Create a *mosquitto1884.conf* file with the following lines:
+```
+      listener 1884
+      allow_anonymous true
+```
+>   2. Start the broker with the following command:
+```
+      mosquitto -v -c mosquitto1884.conf
+```
+
 
 To run any of the services on the drone’s Raspberry Pi, you should execute the following commands:
 
