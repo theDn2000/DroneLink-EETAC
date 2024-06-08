@@ -96,7 +96,7 @@ Now you can make pull requests from your fork, and an administrator can merge yo
 >[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-contributions-pink.svg)](https://www.youtube.com/watch?v=dv-k5MKjq8g)
 
 >[!TIP]
->Installing [GitHub Desktop](https://desktop.github.com) is highly recommended to facilitate the previous steps.\
+>Installing [GitHub Desktop](https://desktop.github.com) is highly recommended to facilitate the previous steps.
 
 
 <a name="Use"></a>
