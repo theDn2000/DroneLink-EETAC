@@ -25,7 +25,7 @@ In this file, you will find both installation instructions and a guide for using
 ## 📦 Installation and Requirements
 
 >[!CAUTION]
->Before installing the project, make sure you have **Python 3.7 or higher**, which is essential for running the libraries. You can download it from [here](https://www.python.org/downloads/)
+>Before installing the project, make sure you have **Python 3.0 or higher**, which is essential for running the libraries. You can download it from [here](https://www.python.org/downloads/)
 
 Clone the repository to your local machine using Git:
 
